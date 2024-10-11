@@ -1,0 +1,30 @@
+
+//program to calculate simple interest 
+/*
+author:Keith Cedric 
+date; Oct 1 2024
+*/
+//preprocessor directive 
+#include <stdio.h>//scanf(), printf()
+
+int main(){
+    float principal_amount,rate,time(years);
+    
+    printf("Enter principal_amount");
+    scanf("%f,& principal _amount");
+    printf("The principal_amount is %f \n,principal_amount");
+    
+    printf("Enter rate");
+    scanf("%f,&rate");
+    printf("The rate is%f \n,rate");
+    
+    printf("Enter time(years)");
+    scanf("%f,&time");
+    printf("The time is %f,time");
+    
+    //simple interest=principal _amount*time*rate
+    printf("The simple interest is %2f, simple_interest");
+    
+    return 0;
+    
+    
